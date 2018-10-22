@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.2)
+  - D2PCurvedModal (0.1.0)
+  - Google-Mobile-Ads-SDK (7.31.0)
+  - Mapbox-iOS-SDK (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - D2PCurvedModal
+  - Google-Mobile-Ads-SDK
+  - Mapbox-iOS-SDK (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - D2PCurvedModal
+    - Google-Mobile-Ads-SDK
+    - Mapbox-iOS-SDK
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  D2PCurvedModal: 797002bfefca9d07544a1f0e97d23a0ead94d04d
+  Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
+  Mapbox-iOS-SDK: 09b978be732d753e5c5e2911460fc0a018ce9be6
+
+PODFILE CHECKSUM: e04263041e51c625f149aa4456e144d4b6d143a3
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="locationSettingsCell" id="KGk-i7-Jjw" customClass="LocationSettingsViewCell" customModule="navo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allow My Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbn-DN-iEM">
+                        <rect key="frame" x="16" y="11" width="139" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kM3-Td-Kkv">
+                        <rect key="frame" x="255" y="6" width="51" height="31"/>
+                        <color key="onTintColor" red="0.0" green="0.60784313729999995" blue="0.85490196080000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kbn-DN-iEM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="DUZ-d5-CaI"/>
+                    <constraint firstAttribute="trailing" secondItem="kM3-Td-Kkv" secondAttribute="trailing" constant="16" id="Kpr-tY-g0h"/>
+                    <constraint firstItem="kM3-Td-Kkv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="PDS-TF-lfK"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kbn-DN-iEM" secondAttribute="bottom" constant="1" id="Tvz-mq-cX8"/>
+                    <constraint firstItem="kbn-DN-iEM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="cei-KN-2fJ"/>
+                    <constraint firstAttribute="bottom" secondItem="kM3-Td-Kkv" secondAttribute="bottom" constant="6.5" id="eT9-Zm-FoD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="locationSwitch" destination="kM3-Td-Kkv" id="waR-Ba-apN"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

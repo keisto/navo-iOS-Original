@@ -1,0 +1,6 @@
+framework module Pods_navo {
+  umbrella header "Pods-navo-umbrella.h"
+
+  export *
+  module * { export * }
+}
